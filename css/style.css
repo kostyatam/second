@@ -1,0 +1,35 @@
+.btn {
+	outline: none;
+	background-color: #fafafa;
+	border: 1px solid #cccccc;
+	color: #333;
+	border-radius: 3px;
+	font-size: 14px;
+	padding: .6em .8em;
+	text-decoration: none;
+	font-family: Arial;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.btn:active {
+	background-color: #e6e6e6;
+	color: #333;
+	border-color: #ccc;
+}
+
+.btn_state_danger {
+	background-color: #d9534f;
+	border-color: #a63f3c;
+	color: #fff;
+}
+
+.btn_state_danger:active {
+	
+}
+
+.btn_state_primary {
+	background-color: #428bca;
+	border-color: #326796;
+	color: #fff;
+}
